@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #cdcdcd;
+    user-select: none;
+    -webkit-user-select: none;
+}
+body{
+    background-color: #242424;
+}
+.navigation ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navigation ul li a{
+    font-size: 25px;
+}
+/*main h1{
+    user-select: text; -- para fazer algo ser selecionavel
+}*/
+main{
+    padding: 10px;
+}
